@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Animandroid</string>
+    <string name="title_activity_view_animations">ViewAnimations</string>
+    <string name="alpha">Alpha</string>
+    <string name="translate">Translate</string>
+    <string name="rotate">Rotate</string>
+    <string name="scale">Scale</string>
+    <string name="set">Set</string>
+    <string name="use_animation_resources">Use Animation Resources</string>
+</resources>
