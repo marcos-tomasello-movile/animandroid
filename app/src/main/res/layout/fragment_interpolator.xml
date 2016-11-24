@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/the_button"
+        android:text="Drop It!" ></Button>
+
+    <TextView
+        android:id="@+id/the_text"
+        android:paddingTop="10dp"
+        android:textSize="34sp"
+        android:textColor="#0000ff"
+        android:textStyle="bold"
+        android:layout_gravity="center|top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="uop!"
+        android:clickable="true" ></TextView>
+
+</LinearLayout>

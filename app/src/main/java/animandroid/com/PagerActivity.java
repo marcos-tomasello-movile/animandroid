@@ -30,13 +30,14 @@ public class PagerActivity extends AppCompatActivity {
 
                 case 0: return ViewAnimationFragment.newInstance();
                 case 1: return PropertyAnimationFragment.newInstance();
+                case 2: return InterpolatorFragment.newInstance();
                 default: return ViewAnimationFragment.newInstance();
             }
         }
 
         @Override
         public int getCount() {
-            return 2;
+            return 3;
         }
     }
 }

@@ -11,6 +11,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.BounceInterpolator;
 import android.widget.Button;
 import android.widget.CheckBox;
 
@@ -56,6 +57,7 @@ public class PropertyAnimationFragment extends Fragment {
                 ObjectAnimator.ofFloat(translateButton, View.TRANSLATION_X, 800);
         translateAnimation.setRepeatCount(1);
         translateAnimation.setRepeatMode(ValueAnimator.REVERSE);
+
 
         // Spin the button around in a full circle
         ObjectAnimator rotateAnimation =
