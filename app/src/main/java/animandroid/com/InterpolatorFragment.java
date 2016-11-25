@@ -6,7 +6,6 @@ import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.view.animation.BounceInterpolator;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
@@ -56,6 +55,7 @@ public class InterpolatorFragment extends Fragment {
         translation.setStartOffset(500);
         translation.setDuration(2000);
         translation.setFillAfter(true);
+
         translation.setInterpolator(new BounceInterpolator());
         mText.startAnimation(translation);
     }
